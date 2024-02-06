@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+body {
+  
+  background-color: #ca6262;
+  font-family: 'Orbitron', sans-serif;
+  background-image: url("/images/oldwesttowm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
+  
+  
+
+
+
+
+
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Sixtyfour', sans-serif;
+  }
+
+
+
+.container {
+  padding: 2%;  
+  font-size: 20px;
+  background-color: #cf0e0ed2;
+  width: 80%;
+  max-width: 25%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+  
+  
+  
+}
+
+}
+
+.color{
+  color: white;
+}

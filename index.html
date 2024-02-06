@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/styles.css">
+
+
+</head>
+
+<body>
+    <div class="container-fluid container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>HANGMAN</h1>
+            </div>
+        </div>
+        <br/>
+        <div class="row m-3">
+            <div class="col text-center color">
+                <h3 id="GameWord">Press Start!</h3>
+            </div>
+        </div>
+        <div class="row m-3 color">
+            <div class="col text-center">
+                <h4 id="numofGuesses">Guesses Used: X / X</h4>
+            </div>
+        </div>
+        <div class="row m-3 color">
+            <div class="col d-flex justify-content-center">
+                <h5 id="lettersused">Letters Used</h5>
+            </div>
+        </div>
+        <div class="row m-4">
+            <div class="col d-flex justify-content-center">
+                <input type="text" id="userInput" maxlength="1" aria-readonly>
+            </div>
+        </div>
+
+        
+        <div class="row m-4">
+            <div class="col d-flex justify-content-center">
+                <button onclick="play1()" id="startBtn" type="button" class="btn btn-primary">Start</button>
+                <audio id="audio" src="sounds/start-computeraif-14572.mp3"></audio>
+                
+                
+            </div>
+            <div class="col d-flex justify-content-center">
+                <button onclick="play2()" id="retryBtn" type="button" class="btn btn-danger">Retry</button>
+                <audio id="audio2" src="sounds/075176_duck-quack-40345.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+    
+
+   
+  
+      
+      
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
